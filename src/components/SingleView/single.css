@@ -1,0 +1,68 @@
+.single-view-container {
+	padding: 10px 5%;
+	background: #e8edf2;
+	min-height: 100vh;
+}
+
+.medicine-header, .meidcine-row, .place-info {
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+.medicine-header {
+	margin-top: 10px;
+}
+.medicine-header > * {
+	display: flex;
+	flex-basis: 10%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.place-medicine {
+	background: white;
+	border-radius: 5px; 
+	padding-top: 10px;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.meidcine-row {
+	border-bottom: 1px solid lightgray;
+}
+
+.meidcine-row > *{
+	background: white;
+	display: flex;
+	padding: 10px 0px;
+	margin: 0;
+	flex-basis: 10%;
+	font-size: 16px;
+}
+
+.meidcine-row > .name {
+	color: #11a8ff;
+	font-weight: bold;
+}
+
+.meidcine-row > .code {
+	color: lightgrey;
+}
+
+.meidcine-row > .form {
+	color: lightgrey;
+}
+
+.place-info {
+	display: flex;
+	border-radius: 5px;
+	padding: 10px 5%;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.place-info > div{
+	text-align: left;
+	font-weight: bold;
+	width: 20%;
+}
