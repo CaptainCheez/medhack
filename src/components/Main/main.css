@@ -1,8 +1,8 @@
 .main-container {
 	display: flex;
-	height: 100vh;
-	background: url('./medicine.svg') no-repeat right center;
-	background-size: 40%;
+	height: calc(100vh - 50px);
+	background: url('./medicine.jpg') no-repeat;
+	background-size: 100%;
 }
 
 .text-block {
@@ -10,11 +10,12 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: white;
 	height: 100%;
-	font-weight: bold;
-	line-height: 200%;
-	font-size: 22px;
+	line-height: 220%;
+	font-size: 15px;
 	padding-left: 5%;
+	padding-right: 5%;
 	text-align: left;
 	max-width: 700px;
 }
@@ -22,6 +23,8 @@
 .text-block > h1 {
 	display: flex;
 	align-items: center;
+	font-weight: bold;
+	margin-bottom: 40px;
 }
 
 .input-fields {

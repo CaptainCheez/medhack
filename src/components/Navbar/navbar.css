@@ -1,5 +1,7 @@
 .navbar {
 	display: flex;
+	flex-direction: row-reverse;
+	background: #151e2d;
 }
 
 .title {

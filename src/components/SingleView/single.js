@@ -26,7 +26,7 @@ class SingleView extends Component {
             placeholder="Введите название лекарства/"
             enterButton="Search"
             size="large"
-            onSearch={value => console.log(value)}
+            onChange={this.searchHandler}
           />
       		<div className='medicine-header'>
       			<p>Название</p>
