@@ -7,16 +7,13 @@ class Navbar extends Component {
     return (
       <div className='navbar'>
          <div className='navbar-item'>
-          <p className='title'>MED<span>HACK</span></p>
-         </div>
-         <div className='navbar-item'>
-         	<Link 
-         		className="nav_el" to={{ 
-	            pathname: `/about`
-	        }}>
-				Раздел
-	        </Link>
-         </div>
+         <Link 
+            className="nav_el" to={{
+              pathname: `/`
+            }}>
+            <p className='title'>MED<span>HACK</span></p>
+          </Link>
+          </div>
       </div>
     );
   }
