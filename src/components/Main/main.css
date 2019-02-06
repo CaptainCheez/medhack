@@ -43,3 +43,34 @@
 	align-items: center;
 	justify-content: center;
 }
+@media screen and (max-width: 736px) {
+	.text-block{
+		font-size: 14px;
+	}
+	.text-block > h1 {
+		margin-top: -10%;
+	}
+	.input-fields input{
+		height: 35px;
+	}
+	.input-fields button{
+		height: 35px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.text-block{
+		font-size: 12px;
+	}
+	.text-block > h1 {
+		margin-top: -15%;
+	}
+	.input-fields input{
+		height: 28px;
+	}
+	.input-fields button{
+		height: 28px;
+	}
+	
+}

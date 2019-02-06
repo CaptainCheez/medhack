@@ -66,3 +66,50 @@
 	font-weight: bold;
 	width: 20%;
 }
+@media screen and (max-width: 736px) {
+	.place-info > div p{
+		font-size: 12px;
+	}
+	.place-medicine input{
+		height: 35px;
+	}
+	.place-medicine button{
+		height: 35px;
+	}
+	.meidcine-row > *{
+		font-size: 12px;
+	}
+	.medicine-header > * {
+		display: flex;
+		flex-basis: 10%;
+		font-size: 8px;
+		font-weight: bold;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.place-info > div p{
+		font-size: 10px;
+	}
+	.place-medicine input{
+		height: 25px;
+	}
+	.place-medicine button{
+		height: 25px;
+	}
+	.meidcine-row > *{
+		font-size: 9px;
+	}
+	.medicine-header > * {
+		display: flex;
+		flex-basis: 10%;
+		font-size: 5px;
+		font-weight: bold;
+	}
+	.right-info button{
+		width: 200%;
+		font-size: 10px;
+		margin-left: -80%;
+	}
+}
