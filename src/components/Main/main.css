@@ -33,7 +33,6 @@
 }
 
 .institutions-container {
-	
 	width: 30%;
 	position: fixed;
 	top: 0;
@@ -45,6 +44,7 @@
 	-moz-margin-top : 45%;
 }
 .institutions-list{
+	transition: none;
 	width: 32%;
 	display: flex;
 	position: fixed;
