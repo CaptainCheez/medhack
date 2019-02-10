@@ -55,7 +55,6 @@ class SingleView extends Component {
             <p>{this.state.institution.code}</p>
           </div>
           <div className='right-info'>
-            <p>Время работы: 7:00 - 12:00</p>
             <Link to={{pathname: `${this.props.match.params.id}/movements`}}>
               <Button type="primary">История движений</Button>
             </Link>

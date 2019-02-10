@@ -29,28 +29,43 @@
 
 .meidcine-row {
 	border-bottom: 1px solid lightgray;
+	width: 100%;
 }
 
 .meidcine-row > *{
-	background: white;
-	display: flex;
+	display: block;
 	padding: 10px 0px;
 	margin: 0;
-	flex-basis: 10%;
-	font-size: 16px;
+	flex-basis: 13%;
+	font-size: 17px;
+	overflow: hidden;
+	text-align: left;
+	white-space: pre-line;
+	margin-right: ;
+	word-wrap: break-word;
 }
 
 .meidcine-row > .name {
-	color: #11a8ff;
-	font-weight: bold;
+    color: #11a8ff;
+    font-weight: bold;
+    margin-left: 1%;
+   
 }
 
 .meidcine-row > .code {
 	color: lightgrey;
+
 }
 
 .meidcine-row > .form {
 	color: lightgrey;
+	padding-left: 2%;
+}
+.meidcine-row > .date{
+	padding-left: 3%;
+}
+.amount{
+	padding-left: 2%;
 }
 
 .place-info {
@@ -66,7 +81,31 @@
 	font-weight: bold;
 	width: 20%;
 }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1126px){
+		.meidcine-row > *{
+				font-size: 14px;
+				padding: 10px 0px;
+				flex-basis: 16%;
+			}
+			
+			.date{
+				font-size: 13px;
+				
+			}
+			.form{
+				margin-right: -3%;
+			}
+			.amount{
+				padding-left: 4%; 
+			}
+			
+			.right-info button{
+				width: 120%;
+				font-size: 14px;
+				margin-left: 0%;
+			}
+}
+@media screen and (max-width: 936px) {
 	.place-info > div p{
 		font-size: 12px;
 	}
@@ -77,13 +116,34 @@
 		height: 35px;
 	}
 	.meidcine-row > *{
-		font-size: 12px;
+		font-size: 9px;
+		padding: 10px 0px;
+		flex-basis: 15%;
+	}
+
+	.code{
+		padding-left: 3%;
+	}
+	.date{
+		font-size: 9px;
+		margin-left: 2%;
+	}
+	.form{
+		margin-right: 0%;
+	}
+	.amount{
+		padding-left: 4%; 
 	}
 	.medicine-header > * {
 		display: flex;
 		flex-basis: 10%;
 		font-size: 8px;
 		font-weight: bold;
+	}
+	.right-info button{
+		width: 150%;
+		font-size: 10px;
+		margin-left: -40%;
 	}
 
 }
@@ -99,8 +159,21 @@
 		height: 25px;
 	}
 	.meidcine-row > *{
-		font-size: 9px;
+		font-size: 6px;
+		padding: 10px 0px;
+		flex-basis: 14%;
 	}
+	.code{
+		padding-left: 2%;
+	}
+	.date{
+		font-size: 5px;
+	}
+	.amount{
+		padding-left: 2.5%; 
+	}
+
+	
 	.medicine-header > * {
 		display: flex;
 		flex-basis: 10%;

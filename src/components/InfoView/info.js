@@ -30,11 +30,8 @@ class InfoView extends Component {
           </div>
           <div className='mid-info'>
             <p>{this.state.institution.region}</p>
-            <p>Факс: 4242</p>
           </div>
           <div className='right-info'>
-            <p>Время работы: 7:00 - 12:00</p>
-            <p>Доп. инфо:</p>
           </div>
         </div>
       	<div className='place-medicine'>
